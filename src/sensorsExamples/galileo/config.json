@@ -1,0 +1,17 @@
+{
+    "mqtt.url": "localhost",
+    "mqtt.port": 1883,
+    "mqtt.username": "",
+    "mqtt.password": "", 
+    "name": "galileo01",   
+    "sensors": [
+        {
+            "name": "luminositySensor",
+            "type": "integer" 
+        },
+        {
+            "name": "gasSensor",
+            "type": "integer" 
+        }
+    ]
+}

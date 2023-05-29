@@ -1,0 +1,25 @@
+{
+    "mqttBroker": "192.168.1.104", 
+    "topicErr": "/ERR", 
+    "mqttPort": 1883, 
+    "deviceName": "galileo01", 
+    "mqttPassword": "", 
+    "topicPrefix": "dev/", 
+    "topicRes": "/RES", 
+    "mqttUsername": "", 
+    "topicReq": "/REQ",  
+    "sensors": [
+        {
+            "name": "luminositySensor",
+            "type": "integer" 
+        },
+        {
+            "name": "gasSensor",
+            "type": "integer" 
+        },
+        {
+            "name": "flameSensor",
+            "type": "boolean" 
+        }
+    ]
+}
